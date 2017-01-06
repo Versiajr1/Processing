@@ -1,0 +1,15 @@
+size(560,120);
+smooth();
+strokeWeight(12);
+strokeJoin(ROUND);
+rectMode(RADIUS);
+rect(60,60,35,35);
+strokeJoin(BEVEL);
+rectMode(RADIUS);
+rect(160,60,35,35);
+strokeCap(SQUARE);
+line(270,25,340,95);
+strokeCap(ROUND);
+line(350,25,420,95);
+ellipseMode(RADIUS);
+ellipse(500,60,35,35);
