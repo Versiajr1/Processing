@@ -1,0 +1,23 @@
+PFont font1;
+PFont font2;
+// Shawn Hall May 25, 2017
+void setup(){
+size(480,120);
+smooth();
+font1 = loadFont("ACaslonPro-BoldItalic-48.vlw");
+textFont(font1);
+font2 = loadFont("Aparajita-48.vlw");
+textFont(font2);
+}
+
+void draw(){
+  background(102);
+  fill(250,30,40);
+  textSize(36);
+  textFont(font1);
+  text("Shawn Hall ",25,60);
+  fill(120,50,10);
+  textSize(18);
+  textFont(font2);
+  text("Shawn Hall", 27,90);
+}
